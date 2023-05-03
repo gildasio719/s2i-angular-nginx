@@ -10,14 +10,14 @@ items:
     output:
       to:
         kind: ImageStreamTag
-        name: 's2i-angular:latest'
+        name: 's2i-angular:1.0'
     postCommit: {}
     resources: {}
     runPolicy: Serial
     source:
       git:
         ref: master
-        uri: 'https://github.com/mhjmaas/s2i-angular-nginx.git'
+        uri: 'https://github.com/gildasio719/s2i-angular-nginx.git'
       type: Git
     strategy:
       dockerStrategy:
